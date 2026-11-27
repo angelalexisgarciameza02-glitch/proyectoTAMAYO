@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#f8f3ee;
+}
+
+.header{
+    height:70px;
+    background:#fff;
+    border-bottom:1px solid #eee;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 30px;
+}
+
+.marca{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.cuadro{
+    width:35px;
+    height:35px;
+    background:#ff5ba7;
+    border-radius:10px;
+}
+
+.contenedor{
+    min-height:calc(100vh - 70px);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:30px;
+}
+
+.card{
+    width:900px;
+    background:white;
+    border-radius:16px;
+    overflow:hidden;
+    display:grid;
+    grid-template-columns:1fr 1.2fr;
+}
+
+.izquierda{
+    background:#fcebf4;
+    padding:50px;
+}
+
+.bloques{
+    display:flex;
+    gap:10px;
+    margin:30px 0;
+}
+
+.bloques div{
+    width:45px;
+    height:45px;
+    background:white;
+    border-radius:10px;
+}
+
+.izquierda h2{
+    margin:20px 0;
+    color:#684e4e;
+}
+
+.izquierda p{
+    color:#888;
+}
+
+.izquierda ul{
+    margin-top:25px;
+    list-style:none;
+}
+
+.izquierda li{
+    margin-bottom:12px;
+}
+
+.derecha{
+    padding:60px;
+}
+
+.derecha h1{
+    color:#684e4e;
+}
+
+.derecha p{
+    margin:12px 0 25px;
+    color:#888;
+}
+
+input[type="email"],
+input[type="password"]{
+    width:100%;
+    height:45px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    padding:0 15px;
+    margin-top:6px;
+    margin-bottom:15px;
+}
+
+.opciones{
+    display:flex;
+    justify-content:space-between;
+    font-size:14px;
+}
+
+.opciones a{
+    color:#ff5ba7;
+}
+
+button{
+    width:100%;
+    height:45px;
+    border:none;
+    background:#ff5ba7;
+    color:white;
+    border-radius:8px;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+.registro{
+    margin-top:25px;
+    text-align:center;
+}
+
+.registro a{
+    color:#ff5ba7;
+}

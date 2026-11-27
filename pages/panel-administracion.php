@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<title>Panel de administración - Dulce Nube</title>
+<title>Panel de administración</title>
 
 <link rel="stylesheet" href="../css/global.css">
 

@@ -1,0 +1,162 @@
+/* INVENTARIO */
+
+.inventory-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.inventory-title h1{
+    font-size:42px;
+    font-weight:600;
+    color:#6d4d4d;
+    margin-bottom:8px;
+}
+
+.inventory-title p{
+    color:#a28e88;
+    font-size:14px;
+}
+
+.inventory-cards{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:16px;
+    margin-bottom:20px;
+}
+
+.inventory-card{
+    background:#fff;
+    border:1px solid #eadfd7;
+    border-radius:16px;
+    padding:20px;
+}
+
+.inventory-card small{
+    color:#b19b96;
+}
+
+.inventory-card h2{
+    margin-top:10px;
+    font-size:42px;
+    color:#5f4545;
+}
+
+.inventory-card p{
+    margin-top:8px;
+    color:#b19b96;
+    font-size:13px;
+}
+
+.products-panel{
+    background:#fff;
+    border:1px solid #eadfd7;
+    border-radius:18px;
+    overflow:hidden;
+}
+
+.products-top{
+    padding:18px 20px;
+    border-bottom:1px solid #f1e6df;
+    display:flex;
+    gap:25px;
+    font-weight:600;
+}
+
+.products-top span{
+    color:#9e8f89;
+    font-weight:400;
+}
+
+.search-area{
+    padding:18px 20px;
+    display:flex;
+    gap:12px;
+    border-bottom:1px solid #f1e6df;
+}
+
+.search-box{
+    flex:1;
+}
+
+.search-box input{
+    width:100%;
+    height:45px;
+    padding:0 15px;
+    border:1px solid #eadfd7;
+    border-radius:10px;
+    outline:none;
+}
+
+.category-select{
+    width:220px;
+}
+
+.category-select select{
+    width:100%;
+    height:45px;
+    border:1px solid #eadfd7;
+    border-radius:10px;
+    padding:0 10px;
+    background:white;
+}
+
+.export-btn{
+    height:45px;
+    padding:0 18px;
+    border:1px solid #eadfd7;
+    border-radius:10px;
+    background:white;
+    cursor:pointer;
+}
+
+.products-table{
+    width:100%;
+}
+
+.products-table th{
+    background:#faf6f3;
+    color:#96847f;
+    font-size:12px;
+    font-weight:600;
+    text-transform:uppercase;
+}
+
+.products-table td{
+    vertical-align:middle;
+}
+
+.product-name{
+    font-weight:600;
+    color:#5e4b48;
+}
+
+.product-code{
+    display:block;
+    color:#ad9c96;
+    font-size:12px;
+    margin-top:4px;
+}
+
+.stock-ok{
+    display:inline-block;
+    background:#e8f8ff;
+    color:#4a8099;
+    padding:5px 12px;
+    border-radius:20px;
+    font-size:12px;
+}
+
+.stock-low{
+    display:inline-block;
+    background:#f4d74d;
+    color:#6a5a0a;
+    padding:5px 12px;
+    border-radius:20px;
+    font-size:12px;
+}
+
+.pagination{
+    display:flex;
+    justify-content:center; }
